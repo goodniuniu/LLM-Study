@@ -1,0 +1,6 @@
+# NLP相关
+transformers>=4.30.0
+tokenizers>=0.13.0
+datasets>=2.12.0
+accelerate>=0.20.0
+peft>=0.4.0

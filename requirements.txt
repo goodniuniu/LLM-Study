@@ -1,0 +1,39 @@
+# 深度学习核心依赖
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0 --index-url https://download.pytorch.org/whl/cu118
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# NLP
+transformers>=4.30.0
+tokenizers>=0.13.0
+datasets>=2.12.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.13.0
+
+# 工具库
+tqdm>=4.65.0
+wandb>=0.15.0
+accelerate>=0.20.0
+
+# 训练相关
+peft>=0.4.0
+bitsandbytes>=0.41.0
+deep-speed>=0.9.0
+
+# API和部署
+fastapi>=0.100.0
+uvicorn>=0.23.0
+gradio>=3.50.0
+
+# 开发工具
+jupyter>=1.0.0
+ipython>=8.14.0
+black>=23.7.0
