@@ -130,7 +130,7 @@ print(f"按列求和 (dim=1): {a.sum(dim=1)}")
 
 # 3.4 其他常用运算
 print("\n【3.4 其他运算】")
-print(f"绝对值: \n{torch.abs(torch.tensor([-1, -2, 3])}")
+print(f"绝对值: \n{torch.abs(torch.tensor([-1, -2, 3]))}")
 print(f"\n指数: \n{torch.exp(a)}")
 print(f"\n对数: \n{torch.log(torch.abs(a) + 1)}")
 
